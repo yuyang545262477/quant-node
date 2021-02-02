@@ -1,0 +1,17 @@
+{
+  "name": "quant-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node ./main.ts --unhandled-rejections=none"
+  },
+  "dependencies": {
+    "himalaya": "^1.1.0",
+    "superagent": "^6.1.0",
+    "superagent-jsonp": "^0.2.1"
+  },
+  "devDependencies": {
+    "@types/superagent": "^4.1.10"
+  }
+}
